@@ -1,5 +1,113 @@
-/* Optional: Add your custom styles here */
-.card:hover {
+/* Base styles can go above this section if needed */
+
+/* --- SMALL DEVICES (phones, up to 576px) --- */
+@media (max-width: 575.98px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-text {
+      font-size: 0.95rem;
+    }
+  
+    #about img {
+      margin-bottom: 1rem;
+    }
+  
+    footer .row > div {
+      text-align: center;
+    }
+  
+    footer .list-unstyled {
+      padding-left: 0;
+    }
+  
+    footer .fab {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* --- MEDIUM DEVICES (tablets, 576px - 768px) --- */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    header p {
+      font-size: 1.1rem;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .card-text {
+      font-size: 1rem;
+    }
+  
+    #about img {
+      margin-bottom: 1rem;
+    }
+  
+    footer .fab {
+      font-size: 1.7rem;
+    }
+  }
+  
+  /* --- LARGE DEVICES (small laptops/desktops, 768px - 991.98px) --- */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    header h1 {
+      font-size: 3rem;
+    }
+  
+    .card-title {
+      font-size: 1.3rem;
+    }
+  
+    .card-text {
+      font-size: 1.05rem;
+    }
+  
+    footer .fab {
+      font-size: 1.8rem;
+    }
+  }
+  
+  /* --- XL DEVICES (large laptops and desktops, 992px and above) --- */
+  @media (min-width: 992px) {
+    header h1 {
+      font-size: 4rem;
+    }
+  
+    .card-title {
+      font-size: 1.4rem;
+    }
+  
+    .card-text {
+      font-size: 1.1rem;
+    }
+  
+    footer .fab {
+      font-size: 2rem;
+    }
+  }
+  
+  /* --- EXTRA STYLES FOR HERO SECTION OVERLAY TEXT --- */
+  @media (max-width: 768px) {
+    header .btn {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  .card:hover {
     transform: scale(1.03);
     transition: 0.3s ease-in-out;
   }
