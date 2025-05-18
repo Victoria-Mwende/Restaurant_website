@@ -1,6 +1,4 @@
-/* Base styles can go above this section if needed */
 
-/* --- SMALL DEVICES (phones, up to 576px) --- */
 @media (max-width: 575.98px) {
     header h1 {
       font-size: 2rem;
@@ -62,7 +60,6 @@
     }
   }
   
-  /* --- LARGE DEVICES (small laptops/desktops, 768px - 991.98px) --- */
   @media (min-width: 768px) and (max-width: 991.98px) {
     header h1 {
       font-size: 3rem;
@@ -81,7 +78,6 @@
     }
   }
   
-  /* --- XL DEVICES (large laptops and desktops, 992px and above) --- */
   @media (min-width: 992px) {
     header h1 {
       font-size: 4rem;
@@ -100,7 +96,6 @@
     }
   }
   
-  /* --- EXTRA STYLES FOR HERO SECTION OVERLAY TEXT --- */
   @media (max-width: 768px) {
     header .btn {
       font-size: 0.9rem;
